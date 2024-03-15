@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB227252BA4DE4200D833E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB227242BA4DE4200D833E2 /* AppDelegate.swift */; };
+		FBB227272BA4DE4200D833E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB227262BA4DE4200D833E2 /* SceneDelegate.swift */; };
+		FBB227292BA4DE4200D833E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB227282BA4DE4200D833E2 /* ViewController.swift */; };
+		FBB2272C2BA4DE4200D833E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB2272A2BA4DE4200D833E2 /* Main.storyboard */; };
+		FBB2272F2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBB2272D2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodeld */; };
+		FBB227312BA4DE4700D833E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB227302BA4DE4700D833E2 /* Assets.xcassets */; };
+		FBB227342BA4DE4700D833E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB227322BA4DE4700D833E2 /* LaunchScreen.storyboard */; };
+		FBB2273F2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2273E2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiTests.swift */; };
+		FBB227492BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB227482BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift */; };
+		FBB2274B2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2274A2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift */; };
+		FBB227582BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB227572BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBB2273B2BA4DE4700D833E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB227192BA4DE4100D833E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB227202BA4DE4100D833E2;
+			remoteInfo = "Hackaton Pollitos Tutifruti";
+		};
+		FBB227452BA4DE4700D833E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB227192BA4DE4100D833E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB227202BA4DE4100D833E2;
+			remoteInfo = "Hackaton Pollitos Tutifruti";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBB227212BA4DE4200D833E2 /* Hackaton Pollitos Tutifruti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackaton Pollitos Tutifruti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB227242BA4DE4200D833E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBB227262BA4DE4200D833E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBB227282BA4DE4200D833E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBB2272B2BA4DE4200D833E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBB2272E2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hackaton_Pollitos_Tutifruti.xcdatamodel; sourceTree = "<group>"; };
+		FBB227302BA4DE4700D833E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB227332BA4DE4700D833E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBB227352BA4DE4700D833E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB2273A2BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackaton Pollitos TutifrutiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB2273E2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackaton_Pollitos_TutifrutiTests.swift; sourceTree = "<group>"; };
+		FBB227442BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackaton Pollitos TutifrutiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB227482BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackaton_Pollitos_TutifrutiUITests.swift; sourceTree = "<group>"; };
+		FBB2274A2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBB227572BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = POLLITOSenFUGA.storyboard; path = ../GitHub/Hacka/POLLITOSenFUGA.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB2271E2BA4DE4100D833E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB227372BA4DE4700D833E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB227412BA4DE4700D833E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB227182BA4DE4100D833E2 = {
+			isa = PBXGroup;
+			children = (
+				FBB227572BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard */,
+				FBB227232BA4DE4200D833E2 /* Hackaton Pollitos Tutifruti */,
+				FBB2273D2BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests */,
+				FBB227472BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests */,
+				FBB227222BA4DE4200D833E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB227222BA4DE4200D833E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB227212BA4DE4200D833E2 /* Hackaton Pollitos Tutifruti.app */,
+				FBB2273A2BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests.xctest */,
+				FBB227442BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB227232BA4DE4200D833E2 /* Hackaton Pollitos Tutifruti */ = {
+			isa = PBXGroup;
+			children = (
+				FBB227242BA4DE4200D833E2 /* AppDelegate.swift */,
+				FBB227262BA4DE4200D833E2 /* SceneDelegate.swift */,
+				FBB227282BA4DE4200D833E2 /* ViewController.swift */,
+				FBB2272A2BA4DE4200D833E2 /* Main.storyboard */,
+				FBB227302BA4DE4700D833E2 /* Assets.xcassets */,
+				FBB227322BA4DE4700D833E2 /* LaunchScreen.storyboard */,
+				FBB227352BA4DE4700D833E2 /* Info.plist */,
+				FBB2272D2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodeld */,
+			);
+			path = "Hackaton Pollitos Tutifruti";
+			sourceTree = "<group>";
+		};
+		FBB2273D2BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB2273E2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiTests.swift */,
+			);
+			path = "Hackaton Pollitos TutifrutiTests";
+			sourceTree = "<group>";
+		};
+		FBB227472BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB227482BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift */,
+				FBB2274A2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift */,
+			);
+			path = "Hackaton Pollitos TutifrutiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB227202BA4DE4100D833E2 /* Hackaton Pollitos Tutifruti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB2274E2BA4DE4700D833E2 /* Build configuration list for PBXNativeTarget "Hackaton Pollitos Tutifruti" */;
+			buildPhases = (
+				FBB2271D2BA4DE4100D833E2 /* Sources */,
+				FBB2271E2BA4DE4100D833E2 /* Frameworks */,
+				FBB2271F2BA4DE4100D833E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hackaton Pollitos Tutifruti";
+			productName = "Hackaton Pollitos Tutifruti";
+			productReference = FBB227212BA4DE4200D833E2 /* Hackaton Pollitos Tutifruti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBB227392BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB227512BA4DE4700D833E2 /* Build configuration list for PBXNativeTarget "Hackaton Pollitos TutifrutiTests" */;
+			buildPhases = (
+				FBB227362BA4DE4700D833E2 /* Sources */,
+				FBB227372BA4DE4700D833E2 /* Frameworks */,
+				FBB227382BA4DE4700D833E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB2273C2BA4DE4700D833E2 /* PBXTargetDependency */,
+			);
+			name = "Hackaton Pollitos TutifrutiTests";
+			productName = "Hackaton Pollitos TutifrutiTests";
+			productReference = FBB2273A2BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBB227432BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB227542BA4DE4700D833E2 /* Build configuration list for PBXNativeTarget "Hackaton Pollitos TutifrutiUITests" */;
+			buildPhases = (
+				FBB227402BA4DE4700D833E2 /* Sources */,
+				FBB227412BA4DE4700D833E2 /* Frameworks */,
+				FBB227422BA4DE4700D833E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB227462BA4DE4700D833E2 /* PBXTargetDependency */,
+			);
+			name = "Hackaton Pollitos TutifrutiUITests";
+			productName = "Hackaton Pollitos TutifrutiUITests";
+			productReference = FBB227442BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB227192BA4DE4100D833E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FBB227202BA4DE4100D833E2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FBB227392BA4DE4700D833E2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FBB227202BA4DE4100D833E2;
+					};
+					FBB227432BA4DE4700D833E2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FBB227202BA4DE4100D833E2;
+					};
+				};
+			};
+			buildConfigurationList = FBB2271C2BA4DE4100D833E2 /* Build configuration list for PBXProject "Hackaton Pollitos Tutifruti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBB227182BA4DE4100D833E2;
+			productRefGroup = FBB227222BA4DE4200D833E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB227202BA4DE4100D833E2 /* Hackaton Pollitos Tutifruti */,
+				FBB227392BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests */,
+				FBB227432BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB2271F2BA4DE4100D833E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB227582BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard in Resources */,
+				FBB227342BA4DE4700D833E2 /* LaunchScreen.storyboard in Resources */,
+				FBB227312BA4DE4700D833E2 /* Assets.xcassets in Resources */,
+				FBB2272C2BA4DE4200D833E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB227382BA4DE4700D833E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB227422BA4DE4700D833E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB2271D2BA4DE4100D833E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB227292BA4DE4200D833E2 /* ViewController.swift in Sources */,
+				FBB2272F2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodeld in Sources */,
+				FBB227252BA4DE4200D833E2 /* AppDelegate.swift in Sources */,
+				FBB227272BA4DE4200D833E2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB227362BA4DE4700D833E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB2273F2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB227402BA4DE4700D833E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB2274B2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift in Sources */,
+				FBB227492BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB2273C2BA4DE4700D833E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB227202BA4DE4100D833E2 /* Hackaton Pollitos Tutifruti */;
+			targetProxy = FBB2273B2BA4DE4700D833E2 /* PBXContainerItemProxy */;
+		};
+		FBB227462BA4DE4700D833E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB227202BA4DE4100D833E2 /* Hackaton Pollitos Tutifruti */;
+			targetProxy = FBB227452BA4DE4700D833E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBB2272A2BA4DE4200D833E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB2272B2BA4DE4200D833E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBB227322BA4DE4700D833E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB227332BA4DE4700D833E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBB2274C2BA4DE4700D833E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBB2274D2BA4DE4700D833E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB2274F2BA4DE4700D833E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hackaton Pollitos Tutifruti/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glory.Hackaton-Pollitos-Tutifruti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBB227502BA4DE4700D833E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hackaton Pollitos Tutifruti/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glory.Hackaton-Pollitos-Tutifruti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBB227522BA4DE4700D833E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glory.Hackaton-Pollitos-TutifrutiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackaton Pollitos Tutifruti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hackaton Pollitos Tutifruti";
+			};
+			name = Debug;
+		};
+		FBB227532BA4DE4700D833E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glory.Hackaton-Pollitos-TutifrutiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackaton Pollitos Tutifruti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hackaton Pollitos Tutifruti";
+			};
+			name = Release;
+		};
+		FBB227552BA4DE4700D833E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glory.Hackaton-Pollitos-TutifrutiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hackaton Pollitos Tutifruti";
+			};
+			name = Debug;
+		};
+		FBB227562BA4DE4700D833E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glory.Hackaton-Pollitos-TutifrutiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hackaton Pollitos Tutifruti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB2271C2BA4DE4100D833E2 /* Build configuration list for PBXProject "Hackaton Pollitos Tutifruti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB2274C2BA4DE4700D833E2 /* Debug */,
+				FBB2274D2BA4DE4700D833E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB2274E2BA4DE4700D833E2 /* Build configuration list for PBXNativeTarget "Hackaton Pollitos Tutifruti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB2274F2BA4DE4700D833E2 /* Debug */,
+				FBB227502BA4DE4700D833E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB227512BA4DE4700D833E2 /* Build configuration list for PBXNativeTarget "Hackaton Pollitos TutifrutiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB227522BA4DE4700D833E2 /* Debug */,
+				FBB227532BA4DE4700D833E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB227542BA4DE4700D833E2 /* Build configuration list for PBXNativeTarget "Hackaton Pollitos TutifrutiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB227552BA4DE4700D833E2 /* Debug */,
+				FBB227562BA4DE4700D833E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBB2272D2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBB2272E2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodel */,
+			);
+			currentVersion = FBB2272E2BA4DE4200D833E2 /* Hackaton_Pollitos_Tutifruti.xcdatamodel */;
+			path = Hackaton_Pollitos_Tutifruti.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBB227192BA4DE4100D833E2 /* Project object */;
+}
