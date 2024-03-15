@@ -17,7 +17,6 @@
 		FBB2273F2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2273E2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiTests.swift */; };
 		FBB227492BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB227482BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift */; };
 		FBB2274B2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2274A2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift */; };
-		FBB227582BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB227572BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		FBB227442BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackaton Pollitos TutifrutiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB227482BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackaton_Pollitos_TutifrutiUITests.swift; sourceTree = "<group>"; };
 		FBB2274A2BA4DE4700D833E2 /* Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackaton_Pollitos_TutifrutiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FBB227572BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = POLLITOSenFUGA.storyboard; path = ../GitHub/Hacka/POLLITOSenFUGA.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 		FBB227182BA4DE4100D833E2 = {
 			isa = PBXGroup;
 			children = (
-				FBB227572BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard */,
 				FBB227232BA4DE4200D833E2 /* Hackaton Pollitos Tutifruti */,
 				FBB2273D2BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiTests */,
 				FBB227472BA4DE4700D833E2 /* Hackaton Pollitos TutifrutiUITests */,
@@ -237,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB227582BA4FA2E00D833E2 /* POLLITOSenFUGA.storyboard in Resources */,
 				FBB227342BA4DE4700D833E2 /* LaunchScreen.storyboard in Resources */,
 				FBB227312BA4DE4700D833E2 /* Assets.xcassets in Resources */,
 				FBB2272C2BA4DE4200D833E2 /* Main.storyboard in Resources */,
