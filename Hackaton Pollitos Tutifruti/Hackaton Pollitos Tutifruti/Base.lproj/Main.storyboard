@@ -103,32 +103,6 @@
             </objects>
             <point key="canvasLocation" x="835.87786259541986" y="3.5211267605633805"/>
         </scene>
-        <!--Title-->
-        <scene sceneID="5Dw-ph-aIJ">
-            <objects>
-                <viewController id="gLp-Zc-ALH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uev-vL-CbY">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTB-E6-5fT">
-                                <rect key="frame" x="21" y="219" width="351" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Con una pasión innata por el aprendizaje y el desarrollo humano, Juan se destaca como un individuo profundamente comprometido con el mundo educativo. Su curiosidad insaciable lo impulsa a explorar constantemente nuevas formas de enseñanza y aprendizaje. Como defensor de la educación inclusiva y equitativa, se esfuerza por crear entornos donde cada persona pueda alcanzar su máximo potencial. Su dedicación a la mejora continua y su empatía lo convierten en un catalizador inspirador dentro de cualquier comunidad educativa.</mutableString>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="cJE-vU-8MQ"/>
-                        <color key="backgroundColor" red="0.71730548139999994" green="0.77421587709999995" blue="0.66272932289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Title" id="xed-bC-SQ6"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="erv-v1-5tq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2407" y="706"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="weV-sm-siP">
             <objects>
@@ -137,6 +111,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-tima-miroshnichenko-5427648" translatesAutoresizingMaskIntoConstraints="NO" id="Y73-54-cxX">
+                                <rect key="frame" x="-4" y="0.0" width="397" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmX-Fb-uBM">
                                 <rect key="frame" x="34" y="437" width="165" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -194,20 +172,16 @@
                                 <rect key="frame" x="127" y="73" width="232" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="34"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99066847560000004" green="0.94838732479999999" blue="0.71760755779999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estudiante de Universidad Tecmilenio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7B-wY-YE2">
                                 <rect key="frame" x="127" y="102" width="217" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99066847560000004" green="0.94838732479999999" blue="0.71760755779999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y73-54-cxX">
-                                <rect key="frame" x="-4" y="0.0" width="397" height="429"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sgg-bp-mGY"/>
                         <color key="backgroundColor" red="0.71730548139999994" green="0.77421587709999995" blue="0.66272932289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -224,28 +198,36 @@
                     <view key="view" contentMode="scaleToFill" id="IQk-up-6h6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Desarollo personal" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6IB-1g-web">
+                                <rect key="frame" x="53" y="59" width="286" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71730548139999994" green="0.77421587709999995" blue="0.66272932289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5c9-qr-nT5">
+                                <rect key="frame" x="30" y="482" width="332" height="696.33333333333348"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71730548139999994" green="0.77421587709999995" blue="0.66272932289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">El desarrollo personal es un viaje de autodescubrimiento y crecimiento continuo. Implica explorar nuestras fortalezas y debilidades, establecer metas significativas y trabajar constantemente para alcanzar nuestro máximo potencial. A través del aprendizaje, la reflexión y la acción deliberada, podemos transformarnos en versiones más auténticas y realizadas de nosotros mismos.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image 2" translatesAutoresizingMaskIntoConstraints="NO" id="q8u-Xh-Bif">
+                                <rect key="frame" x="30" y="145" width="332" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nOv-Fw-8Pe"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.71730548139999994" green="0.77421587709999995" blue="0.66272932289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Iv-b1-3g0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3121" y="4"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="4vw-dv-iAT">
-            <objects>
-                <viewController id="Tnq-wJ-Aus" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ig3-cN-5ai">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="j4o-wM-CKy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jyL-tZ-ZZ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3891" y="4"/>
+            <point key="canvasLocation" x="2406.8702290076335" y="3.5211267605633805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="niw-iL-wBb">
@@ -254,35 +236,13 @@
                     <view key="view" contentMode="scaleToFill" id="9WT-zs-2zF">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Color Hunt Palette 66806ab4c6a6ffc286fff1af" translatesAutoresizingMaskIntoConstraints="NO" id="BPS-Nj-L4G">
-                                <rect key="frame" x="51" y="82" width="86" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preparatoria 25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQE-ft-rYp">
-                                <rect key="frame" x="143" y="104" width="200" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="PERFIN EDUCATIVO DE ESCUELAS, EN ESTE TEXTO VA INFO ESPECIFICA DE LA INSTITUCIÒN, FIN XOXO GOSSIP GIRL" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WjY-NW-YMI">
-                                <rect key="frame" x="16" y="521" width="361" height="297"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91573566200000001" green="0.76809901000000003" blue="0.52151942250000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="sW1-XT-QAf"/>
                         <color key="backgroundColor" red="0.97474712129999996" green="0.85403054950000001" blue="0.64309871200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V1E-Bn-imU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1598" y="706"/>
+            <point key="canvasLocation" x="3237" y="4"/>
         </scene>
     </scenes>
     <resources>
@@ -290,7 +250,9 @@
         <image name="Color Hunt Palette f1c27bffd89ca2cdb085a389" width="400" height="400"/>
         <image name="Image" width="1125" height="2436"/>
         <image name="Image 1" width="4000" height="6000"/>
+        <image name="Image 2" width="1967.3333740234375" height="1333.3333740234375"/>
         <image name="jaredd-craig-HH4WBGNyltc-unsplash" width="400" height="400"/>
+        <image name="pexels-tima-miroshnichenko-5427648" width="1887.6666259765625" height="1258.3333740234375"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
